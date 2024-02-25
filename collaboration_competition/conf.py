@@ -1,0 +1,13 @@
+EPISODES = 1000         # number of episodes
+RANDOM_SEED = 10        # seed
+BUFFER_SIZE = int(1e6)  # replay buffer size
+BATCH_SIZE = 128        # minibatch size
+LR_ACTOR = 1e-3         # actor learning rate
+LR_CRITIC = 1e-3        # critic learning rate
+LEARN_EVERY = 1         # learn every X steps
+LEARN_NUM = 5           # learning iterations in the same step
+GAMMA = 0.99            # discount factor
+TAU = 1e-3              # target parameters soft update
+OU_SIGMA = 0.2          # Ornstein-Uhlenbeck noise sigma parameter
+OU_THETA = 0.15         # Ornstein-Uhlenbeck noise theta parameter
+NOISE_DECAY = .999      # noise decay factor
