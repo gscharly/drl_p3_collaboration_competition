@@ -36,7 +36,7 @@ dependencies.
 The repository contains 2 scripts under the collaboration_competition package: train.py and play.py.
 
 ## Train
-The script train.py can be used to train the agent. The environment has been solved using the Multiple Agent Deep
+The script train.py can be used to train the agents. The environment has been solved using the Multiple Agent Deep
 Deterministic Policy Gradient (MADDPG) algorithm. More details can be found in ipynb/report.ipynb.
 
 The script accepts the following arguments:
